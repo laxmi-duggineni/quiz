@@ -1,0 +1,59 @@
+html{
+    font-family: 'Roboto Slab', serif !important;
+
+}
+*{
+    font-family: 'Roboto Slab', serif !important;
+
+}
+button {
+    background: linear-gradient(
+45deg
+, #2196f3, #1b698c);
+    border: 0px solid #2196f3;
+    padding: 10px 20px;
+    font-size: 20px;
+    min-width: 180px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    height: 55px;
+    cursor: pointer;
+}
+input {
+    margin-right: 15px;
+}
+.question {
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+}
+.answers {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom:30px;
+}
+.answers label {
+    display: block;
+}
+.background-wrapper{
+    position: relative;
+    background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
+}
+.quiz-container{
+    width: 80%;
+    display: block;
+    margin: 80px auto;
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: 20px 15px 3px #423636;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    font-size: 25px;
+    
+}
